@@ -1,0 +1,7 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Archives, SQL dumps and docs are not public.
+<FilesMatch "(?i)\.(zip|sql|md|log|bak)$">
+    Require all denied
+</FilesMatch>

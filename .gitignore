@@ -1,0 +1,22 @@
+# Old project copy and archives
+/metromingle-main/
+/AD (2).zip
+
+# Database backups and sensitive data
+/db/backup_before_phase1.sql
+*.bak
+*.backup
+
+# Local configuration
+.env
+.env.*
+
+# Uploaded user content (keep folder structure)
+uploads/spaces/*
+!uploads/spaces/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
