@@ -1,4 +1,4 @@
--- MetroMingle fresh-install schema (Phase 1).
+-- PlotSphere fresh-install schema (Phase 1).
 -- For an EXISTING database do not run this file; run `php db/migrate.php` instead.
 -- Usage: CREATE DATABASE metromingle CHARACTER SET utf8mb4; USE metromingle; then import this file.
 
@@ -51,9 +51,9 @@ CREATE TABLE bookings (
 
 -- Demo seed data (password for all demo accounts: 1234)
 INSERT INTO users (username, password, role, full_name, email) VALUES
-('admin', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'admin', 'Admin User', 'admin@metromingle.com'),
-('owner1', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'owner', 'Ravi Kumar', 'ravi@metromingle.com'),
-('user1', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'user', 'Priya Sharma', 'priya@metromingle.com');
+('admin', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'admin', 'Admin User', 'admin@plotsphere.com'),
+('owner1', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'owner', 'Ravi Kumar', 'ravi@plotsphere.com'),
+('user1', '$2y$10$l7x7z0sspKoG9s68OmWx6eQJ8IP7VWjAh6kp1vlhOtuKUM/SVv2hq', 'user', 'Priya Sharma', 'priya@plotsphere.com');
 
 INSERT INTO spaces (owner_id, name, location, capacity, price_per_hour, description, themes, amenities) VALUES
 (2, 'The Grand Hall', 'Banjara Hills, Hyderabad', 500, 5000.00, 'A spacious hall perfect for large events and celebrations.', 'Royal,Modern,Rustic', 'Projector,Stage,Parking,AC'),

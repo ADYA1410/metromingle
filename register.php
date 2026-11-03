@@ -52,13 +52,13 @@ if (is_post()) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register • MetroMingle</title>
+  <title>Register • PlotSphere</title>
   <link rel="stylesheet" href="<?php echo e(url('css/styles.css')); ?>">
 </head>
 <body>
   <div class="auth-bg">
     <div class="auth-card">
-      <a class="auth-logo" href="<?php echo e(url('index.php')); ?>">MetroMingle</a>
+      <a class="auth-logo" href="<?php echo e(url('index.php')); ?>">PlotSphere</a>
       <div class="auth-tagline">Create your account</div>
 
       <?php foreach ($errors as $err): ?>

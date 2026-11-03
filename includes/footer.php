@@ -5,8 +5,8 @@
   </main>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <strong>MetroMingle</strong>
-      <span>&copy; <?php echo date('Y'); ?> MetroMingle. Event space discovery and booking management.</span>
+      <strong>PlotSphere</strong>
+      <span>&copy; <?php echo date('Y'); ?> PlotSphere. Event space discovery and booking management.</span>
     </div>
   </footer>
 <?php endif; ?>

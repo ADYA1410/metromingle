@@ -19,7 +19,7 @@ if (session_status() === PHP_SESSION_NONE) {
         'samesite' => 'Lax',
         'secure' => !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off',
     ]);
-    session_name('METROMINGLESESSID');
+    session_name('PLOTSPHERESESSID');
     session_start();
 }
 

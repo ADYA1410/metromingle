@@ -1,4 +1,4 @@
-# MetroMingle – Test Checklist
+# PlotSphere – Test Checklist
 
 Environment: XAMPP, PHP 8.2.12, MariaDB 10.4.32 (port 3307), Apache (port 80).
 

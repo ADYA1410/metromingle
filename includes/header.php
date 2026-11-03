@@ -30,13 +30,13 @@ $flashes = take_flashes();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?php echo e(($pageTitle ?? 'Event spaces') . ' • MetroMingle'); ?></title>
+  <title><?php echo e(($pageTitle ?? 'Event spaces') . ' • PlotSphere'); ?></title>
   <link rel="stylesheet" href="<?php echo e(url('css/styles.css')); ?>">
 </head>
 <body>
 <?php if ($user): ?>
   <header class="topbar">
-    <a class="navbar-brand" href="<?php echo e(url(home_for_role($user['role']))); ?>">MetroMingle</a>
+    <a class="navbar-brand" href="<?php echo e(url(home_for_role($user['role']))); ?>">PlotSphere</a>
     <div class="topbar-user">
       <span class="user"><?php echo e($user['full_name'] ?: $user['username']); ?></span>
       <?php echo status_badge($user['role']); ?>
@@ -58,7 +58,7 @@ $flashes = take_flashes();
     <main class="main-content">
 <?php else: ?>
   <header class="navbar">
-    <a class="navbar-brand" href="<?php echo e(url('index.php')); ?>">MetroMingle</a>
+    <a class="navbar-brand" href="<?php echo e(url('index.php')); ?>">PlotSphere</a>
     <nav class="nav-links">
       <a href="<?php echo e(url('user/browse.php')); ?>"<?php echo $current === 'user/browse.php' ? ' class="active"' : ''; ?>>Browse Spaces</a>
       <a href="<?php echo e(url('login.php')); ?>"<?php echo $current === 'login.php' ? ' class="active"' : ''; ?>>Login</a>

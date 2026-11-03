@@ -18,12 +18,12 @@ $featured = db_all("SELECT s.* $activeSpaceSql ORDER BY s.created_at DESC LIMIT 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MetroMingle • Event spaces, simply booked</title>
+  <title>PlotSphere • Event spaces, simply booked</title>
   <link rel="stylesheet" href="<?php echo e(url('css/styles.css')); ?>">
 </head>
 <body>
   <header class="navbar">
-    <a class="navbar-brand" href="<?php echo e(url('index.php')); ?>">MetroMingle</a>
+    <a class="navbar-brand" href="<?php echo e(url('index.php')); ?>">PlotSphere</a>
     <nav class="nav-links">
       <a href="<?php echo e(url('user/browse.php')); ?>">Browse Spaces</a>
       <a href="<?php echo e(url('login.php')); ?>">Login</a>
@@ -86,8 +86,8 @@ $featured = db_all("SELECT s.* $activeSpaceSql ORDER BY s.created_at DESC LIMIT 
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <strong>MetroMingle</strong>
-      <span>&copy; <?php echo date('Y'); ?> MetroMingle. Event space discovery and booking management.</span>
+      <strong>PlotSphere</strong>
+      <span>&copy; <?php echo date('Y'); ?> PlotSphere. Event space discovery and booking management.</span>
     </div>
   </footer>
   <script src="<?php echo e(url('js/app.js')); ?>"></script>

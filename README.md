@@ -1,4 +1,4 @@
-# MetroMingle
+# PlotSphere
 
 Event-focused space discovery and booking management. Customers find and request event spaces, owners manage listings and requests, and administrators manage the platform.
 
